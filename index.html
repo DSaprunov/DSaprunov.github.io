@@ -1,6 +1,43 @@
-<a href="http://www.kubsu.ru/"title="Официальный сайт Кубанского государственного университета">КубГУ</a>
-<a href="https://vk.com/"title="Официальный сайт Вконтакте">Вконтакте</a>
-<a href="ftp://saite.com/denis.zip"></a>
-<a href="ftp://denis:denis121212@saite.com/denis.zip"></a>
-<a href="/news.html"></a>
-<a href="up">Наверх</a>
+<ol>
+			<li><a href="www.kubsu.ru">абсолютную гиперссылку на главную страницу сайта;</a></li>
+			<li><a href="https://www.kubsu.ru/">абсолютную на главную сайта в протоколе https;</a></li>	
+			<li><a href="ftp://www.kubsu.ru/icon.png">ссылку на файл на сервере FTP без авторизации;</a></li>
+			<li><a href="ftp:/user:pass@www.kubsu.ru/icon.png">ссылку на файл на сервере FTP с авторизацией;</a></li>
+			<li><a href="https://www.kubsu.ru/ru/university#block-block-9">ссылку на фрагмент страницы некоторого сайта;</a></li>
+			<li><a href="#form">ссылку на фрагмент текущей страницы;</a></li>
+			<li><a href="https://example.com/list?page=10&reg=23">ссылку с двумя параметрами в URL;</a></li>
+			<li>
+				<p>список ссылок основной навигации сайта с подписями;</p>
+				<ul>
+					<li><a href="https://www.kubsu.ru/ru/university">Университет</a></li>
+					<li><a href="https://www.kubsu.ru/ru/education">Образование</a></li>
+					<li><a href="https://www.kubsu.ru/ru/science">Наука и инновации</a></li>
+					<li><a href="https://www.kubsu.ru/ru/abiturient">Абитуриентам</a></li>
+					<li><a href="https://www.kubsu.ru/ru/studlife">Студентам</a></li>
+				</ul>
+			</li>
+			<li><a>ссылку без href;</a></li>
+			<li><a href="">ссылку с пустым href;</a></li>
+			<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="nofollow">ссылку, по которой запрещен переход поисковикам;</a></li>
+			<li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><!--noindex-->запрещенную для индексации поисковиками;<!--/noindex--></a></li>
+			<li><p>контекстную <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">ссылку</a> в тексте абзаца;</p></li>
+			<li>
+				<p></p>
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="200"></a>
+			</li>
+			<li>
+				<p>ссылки из прямоугольных и круглых областей картинки (HTML-тег map);</p>
+				<img src="https://megabook.ru/stream/mediapreview?Key=Фигура%20(геометрические%20фигуры)&Width=654&Height=654" width="200" alt="Geoms" usemap="#urls">
+				<map name="urls">
+					<area shape="rect" coords="20,20,80,80" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+					<area shape="circle" coords="142,84,38" href="https://www.kubsu.ru/ru/education">
+					<area shape="poly" coords="38,160,78,98,120,160" href="https://www.kubsu.ru/ru/science">
+				</map>
+			</li>
+			<li><a href="page">относительную на страницу в текущем каталоге;</a></li>
+			<li><a href="about/page">относительную на страницу в каталоге about;</a></li>
+			<li><a href="../page">относительную на страницу в каталоге уровнем выше текущего;</a></li>
+			<li><a href="../../page">относительную на страницу в каталоге двумя уровнями выше;</a></li>
+			<li><a href="/">сокращенную на главную;</a></li>
+			<li><a href="/page">сокращенную ссылку на внутреннюю.</a></li>
+		</ol>
