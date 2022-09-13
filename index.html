@@ -13,7 +13,7 @@
 					<li><a href="https://ru.wikipedia.org/wiki/Википедия:Избранные_статьи">Избранные статьи</a></li>
 					<li><a href="https://ru.wikipedia.org/wiki/Википедия:Сообществоt">Сообщество</a></li>
 					<li><a href="https://ru.wikipedia.org/wiki/Википедия:Форум">Форум</a></li>
-					<li><a href="hhttps://ru.wikipedia.org/wiki/Википедия:Справка">Справка</a></li>
+					<li><a href="https://ru.wikipedia.org/wiki/Википедия:Справка">Справка</a></li>
 				</ul>
 			</li>
 			<li><a>ссылку без href;</a></li>
@@ -41,3 +41,60 @@
 			<li><a href="/">сокращенную на главную;</a></li>
 			<li><a href="/page">сокращенную ссылку на внутреннюю.</a></li>
 		</ol>
+</div>
+
+	<div id="form">
+		<div style="width: 350px;">
+			<form>
+				<div class="field name">
+					<label for="name">Имя:</label>
+					<input type="text" name="name" id="name" placeholder="Имя">
+				</div>
+				<div class="field email">
+					<label for="email">E-mail:</label>
+					<input type="email" name="email" id="email" placeholder="E-mail">
+				</div>
+				<div class="field bday">
+					<label for="bday">Дата рождения:</label>
+					<input type="date" name="bday" id="bday">
+				</div>
+				
+				<div class="field gender">
+					<label for="gender">Пол:</label>
+					<div id="gender">
+						<label><input type="radio" value="male" name="gender">Мужской</label>
+						<label><input type="radio" value="female" name="gender">Женский</label>
+					</div>
+				</div>
+				<div class="field count">
+					<label for="count">Число конечностей:</label>
+					<div id="count">
+						<label><input type="radio" value="0" name="count">0</label>
+						<label><input type="radio" value="1" name="count">1</label>
+						<label><input type="radio" value="2" name="count">2</label>
+						<label><input type="radio" value="3" name="count">3</label>
+						<label><input type="radio" value="4" name="count">4</label>
+					</div>
+				</div>
+				<div class="field superpower">
+					<label for="superpower">Сверхспособности:</label>
+					<select name="superpower" id="superpower" multiple="multiple">
+						<option value="бессмертие">бессмертие</option>
+						<option value="прохождение сквозь стены">прохождение сквозь стены</option>
+						<option value="левитация">левитация</option>
+					</select>
+				</div>
+				<div class="field biography">
+					<label for="">Биография:</label>
+					<textarea name="biography" id="biography" cols="40" rows="15"></textarea>
+				</div>
+				<div class="field agreement">
+					<label for="">С контрактом ознакомлен (а):</label>
+					<input type="checkbox" name="agreement">
+				</div>
+				<input id="submit" type="submit" value="Отправить">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
