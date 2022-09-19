@@ -19,19 +19,16 @@ div.content {
 }
 header {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: normal;
     font-size: 60px;
 }
 h2 {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
 }
 #navigation a {
     text-decoration: none;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 }
 #navigation {
     max-width: 960px;
@@ -46,7 +43,6 @@ div.listOfLinks {
 div.forma {
     max-width: 960px;
     margin: auto;
-    background-color: rgb(251, 222, 242);
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -60,12 +56,10 @@ table {
     border: 3px solid rgb(72,72,72);
     border-collapse: collapse;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     width: 80%;
 }
 th {
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
     color: black;
 }
 }
@@ -80,7 +74,6 @@ td,tr,th {
 footer {
     color:black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-style: normal;
     font-size: 20px;
