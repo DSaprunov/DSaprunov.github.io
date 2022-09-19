@@ -20,6 +20,7 @@ div.content {
     float: left;
 }
 header {
+    color: none;
     color: black;
     font-weight: bold;
     font-style: normal;
