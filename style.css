@@ -26,9 +26,7 @@ header {
     font-style: normal;
     font-size: 60px;
 }
-h2 {
-    color: black;
-}
+
 #navigation a {
     text-decoration: none;
     font-size: 30px;
@@ -42,9 +40,6 @@ div.listOfLinks {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-}
-div.listOfLinks a {
-    color: rgb(95, 14, 77);
 }
 div.forma {
     max-width: 960px;
@@ -63,17 +58,6 @@ table {
     border-collapse: collapse;
     font-size: 20px;
     width: 80%;
-}
-th {
-    font-size: 25px;
-    color: black;
-}
-tr {
-    height: 50px;
-    text-align: center;
-}
-td,tr,th {
-    border: 1px solid rgb(91, 91, 91);
 }
 div.footer1 {
     margin: 0 auto;
