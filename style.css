@@ -62,11 +62,11 @@ table {
     width: 80%;
 }
 th {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 tr {
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
 td,tr,th {
