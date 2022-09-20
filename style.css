@@ -31,24 +31,32 @@ color: black;
 font-family: 'Times New Roman', Times, serif;
 }
 #navigation a {
-color: rgbrgb(50, 205, 50);
-text-decoration: none;
-font-size: 30px;
-font-family: 'Times New Roman', Times, serif;
+    color: rgb(136, 2, 132);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #navigation {
-max-width: 960px;
-margin: 0 auto;
-padding: 30px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
-div.list {
-max-width: 960px;
-margin: 0 auto;
-background-color: rgb(30, 160, 180);
-padding: 10px;
+div.listOfLinks {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(152, 251, 152);
+    padding: 20px;
 }
-div.list a {
-color: rgb(255, 0, 0);
+div.listOfLinks a {
+    color: rgb(0, 100, 0;
+}
+div.forma {
+    max-width: 960px;
+    margin: auto;
+    background-color: rgb(152, 251, 152);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 #table1 {
 max-width: 960px;
@@ -83,23 +91,15 @@ background-color: rgb(152, 251, 152);
 tr:nth-child(even) {
 background-color: rgb(152, 251, 152);
 }
-#form {
-max-width: 960px;
-margin: auto;
-background-color: rgb(50, 205, 50);
-padding: 20px;
-margin-bottom: 20px;
-margin-top: 20px;
-}
 div.footer1 {
 margin: 0 auto;
 background-color: rgb(50, 205, 50);
 }
 footer {
-color:black;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
-font-weight: lighter;
-font-style: normal;
-font-size: 20px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
 }
