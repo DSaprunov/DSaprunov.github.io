@@ -1,18 +1,18 @@
 body {
-    margin:0;
+margin:0;
 }
 div.header1 {
-    border: 3px solid rgb(0, 100, 0);
-    background-color: rgb(34, 139, 34);
-    width: 100%;
-    height: 120px;
+border: 3px solid rgb(0, 128, 0);
+background-color: rgb(50, 205, 50);
+width: 100%;
+height: 120px;
 }
-div.content { 
-    width: 960px;
-    margin: auto;
+div.content {
+width: 960px;
+margin: auto;
 }
 #logo {
-    margin-top: 10px;
+margin-top: 10px;
 margin-bottom: 10px;
 width: 100px;
 height: 100px;
@@ -20,80 +20,86 @@ float: left;
 border-radius: 50%;
 }
 header {
-    color: black;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 60px;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-style: normal;
+font-size: 60px;
 }
 h2 {
-    color: black;
+color: black;
+font-family: 'Times New Roman', Times, serif;
 }
 #navigation a {
-    color: rgb(0, 100, 0);
-    text-decoration: none;
-    font-size: 30px;
+color: rgbrgb(50, 205, 50);
+text-decoration: none;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
 }
 #navigation {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+max-width: 960px;
+margin: 0 auto;
+padding: 30px;
 }
-div.listOfLinks {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: rgb(34, 139, 34);
-    padding: 20px;
+div.list {
+max-width: 960px;
+margin: 0 auto;
+background-color: rgb(30, 160, 180);
+padding: 10px;
 }
-div.listOfLinks a {
-    color: rgb(0, 100, 0);
-}
-div.forma {
-    max-width: 960px;
-    margin: auto;
-    background-color: rgb(144, 238, 144);
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+div.list a {
+color: rgb(255, 0, 0);
 }
 #table1 {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+max-width: 960px;
+margin: 0 auto;
+padding: 20px;
 }
 table {
-    border: 3px solid rgb(72,72,72);
-    border-collapse: collapse;
-    font-size: 20px;
-    width: 80%;
+border: 3px solid rgb(72,72,72);
+border-collapse: collapse;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+width: 80%;
 }
 th {
-    font-size: 25px;
-    color: black;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+color: black;
 }
 td {
-    color: rgb(152, 251, 152);
+color: rgb(0, 128, 0);
 }
 tr {
-    height: 50px;
-    text-align: center;
+height: 50px;
+text-align: center;
 }
 td,tr,th {
-    border: 1px solid rgb(91, 91, 91);
-}
-div.footer1 {
-    margin: 0 auto;
-    background-color: rgb(0, 128, 0);
+border: 1px solid rgb(91, 91, 91);
 }
 tr:nth-child(odd) {
-    background-color: rgb(34, 139, 34);
+background-color: rgb(152, 251, 152);
 }
 tr:nth-child(even) {
-    background-color: rgb(152, 251, 152);
+background-color: rgb(152, 251, 152);
+}
+#form {
+max-width: 960px;
+margin: auto;
+background-color: rgb(50, 205, 50);
+padding: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+div.footerr {
+margin: 0 auto;
+background-color: rgb(50, 205, 50);
 }
 footer {
-    color:black;
-    text-align: center;
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 20px;
+color:black;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: lighter;
+font-style: normal;
+font-size: 20px;
 }
