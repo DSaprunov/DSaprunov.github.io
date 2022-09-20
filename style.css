@@ -41,14 +41,14 @@ font-family: 'Times New Roman', Times, serif;
     margin: 0 auto;
     padding: 20px;
 }
-div.listOfLinks {
+div.list {
     max-width: 960px;
     margin: 0 auto;
     background-color: rgb(152, 251, 152);
     padding: 20px;
 }
-div.listOfLinks a {
-    color: rgb(0, 100, 0;
+div.list a {
+    color: rgb(0, 100, 0);
 }
 div.forma {
     max-width: 960px;
