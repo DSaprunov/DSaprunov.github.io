@@ -13,10 +13,11 @@ div.content {
 }
 #logo {
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
-    float: left;
+margin-bottom: 10px;
+width: 100px;
+height: 100px;
+float: left;
+border-radius: 50%;
 }
 header {
     color: black;
@@ -49,7 +50,7 @@ div.listOfLinks a {
 div.forma {
     max-width: 960px;
     margin: auto;
-    background-color: rgb(34, 139, 34);
+    background-color: rgb(144, 238, 144);
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
