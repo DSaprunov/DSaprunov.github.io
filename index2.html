@@ -5,22 +5,22 @@
         <link rel="stylesheet" href="style3.css">
     </head>
 <body>
-  <div id="mobile">
-  <div class="header1">
-      <div class="content">
-          <img id="logo" src="https://img2.freepng.ru/20180330/ixe/kisspng-the-c-programming-language-programmer-computer-i-coding-5abef11fcafb45.7785688215224630078314.jpg" alt="Лого">
-              <header>WEB-программирование</header> 
-      </div>
-  </div>
-  <div id="navigation">
+  <div id="mobile_first">
+  <header>
+    <div class="content">
+      <img id="logo" src="img2.freepng.ru/20180330/ixe/kisspng-the-c-programming-language-programmer-computer-i-coding-5abef11fcafb45.7785688215224630078314.jpg" alt="Лого">
+      <span class="logo-name">WEB-программирование</span>
+    </div>
+  </header>
   <nav>
-      <a href="#link1">Список гиперссылок</a> | <a href="#link2">Таблица</a> | <a href="#link3">Форма</a>
+      <div><a href="#link1">Список гиперссылок</a> | </div>
+      <div><a href="#link2">Таблица</a> | </div>
+      <div><a href="#link3">Форма</a> | </div>
   </nav>
-  </div>
-  <div class="list">
+  <div class="listOfLinks">
   <h2 id="link1">Список гиперссылок:</h2>
 <ol>
-			<li><a href="www.kubsu.ru">абсолютную гиперссылку на главную страницу сайта;</a></li>
+	   <li><a href="www.kubsu.ru">абсолютную гиперссылку на главную страницу сайта;</a></li>
 			<li><a href="https://www.kubsu.ru/">абсолютную на главную сайта в протоколе https;</a></li>	
 			<li><a href="ftp://www.kubsu.ru/icon.png">ссылку на файл на сервере FTP без авторизации;</a></li>
 			<li><a href="ftp:/Denis1212:lflfl@www.kubsu.ru/icon.png">ссылку на файл на сервере FTP с авторизацией;</a></li>
@@ -63,9 +63,9 @@
 			<li><a href="/page">сокращенную ссылку на внутреннюю.</a></li>
 		</ol>
     </div>
-<div id="table1">
+	<div id="table1">
   <h2 id="link2">Таблица:</h2>
-  <table>
+<table>
   <tr>
     <td></td>
     <th>Колонка 1</th>
@@ -100,10 +100,10 @@
   </tr>
 </table>
 </div>
-<div class="forma">
+	<div class="forma">
   <h2 id="link3">Форма:</h2>
   <form method="POST">
-    <label>
+    <label><br>
         Имя:<br>
         <input name="field-1" placeholder="Введите Ваше имя">
     </label><br>
@@ -138,8 +138,9 @@
     <input type="submit" value="Отправить">
   </form>
   </div>
-   <div class="footer1">
-    <footer>(с)Сапрунов Денис 2022</footer>
-  </div>
+  <footer>
+    <span id="footspan">(c) Сапрунов Денис 2022</span>
+  </footer>
+</div>
 </body>
 </html>
