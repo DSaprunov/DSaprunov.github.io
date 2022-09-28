@@ -17,7 +17,7 @@ background-color: rgb(50, 205, 50);
     align-items: center;
 }
 #mobile_first #logo {
- margin-top: 10px;
+margin-top: 10px;
 margin-bottom: 10px;
 width: 100px;
 height: 100px;
@@ -135,7 +135,7 @@ border-radius: 50%;
     width: 960px;
     margin: 0 auto;
 }
-#mobile_first div.listOfLinks {
+#mobile_first div.list{
     display: flex;
     order: 3;
     width: 960px;
