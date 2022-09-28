@@ -17,11 +17,12 @@ background-color: rgb(50, 205, 50);
     align-items: center;
 }
 #mobile_first #logo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
-    float: left;
+ margin-top: 10px;
+margin-bottom: 10px;
+width: 100px;
+height: 100px;
+float: left;
+border-radius: 50%;
 }
 #mobile_first .logo-name {
     color: black;
