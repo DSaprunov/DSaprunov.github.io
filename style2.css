@@ -132,7 +132,7 @@ border-radius: 50%;
     display: flex;
     flex-direction: row;
     order: 2;
-    width: 960px;
+    width: 200px;
     margin: 0 auto;
 }
 #mobile_first div.list{
