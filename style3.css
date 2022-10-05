@@ -36,7 +36,7 @@ nav a {
     font-family: 'Times New Roman', Times, serif;
 }
 nav a:hover {
-    color: rgb(50, 205, 50);
+    color: rgb (224, 255, 255);
 }
 .listOfLinks {
     max-width: 960px;
@@ -93,7 +93,7 @@ tr:nth-child(odd) {
     background-color: rgb(152, 251, 152);
 }
 tr:nth-child(even) {
-    background-color: rgb(50, 205, 50);
+    background-color: rgb(224, 255, 255);
 }
 .forma {
     max-width: 960px;
