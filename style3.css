@@ -12,9 +12,12 @@ header {
     height: 120px;
 }
 .logo {
-    width: 100px;
-    height: 100px;
-    float: left;
+   margin-top: 10px;
+margin-bottom: 10px;
+width: 100px;
+height: 100px;
+float: left;
+border-radius: 50%;
 }
 .logo-name {
     color: black;
