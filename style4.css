@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+.forma {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 960px;
+    background: linear-gradient(to top, rgb(34, 139, 34), rgb(152, 251, 152));
+}
+h1 {
+    font-size: 40px;
+    color: rgb(0, 100, 0);
+}
+#field1, #field2 {
+    width: 550px;
+    font-size: 15px;
+    color: rgb(0, 128, 0);
+    border-color: rgb(0, 100, 0);
+    border-width: 2px;
+}
+#lable1, #lable2 {
+    font-size: 20px;
+    color: rgb(0, 100, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button1 {
+    font-size: 15px;
+    color: rgb(0, 100, 0);
+    background-color: rgb(60, 179, 113);
+}
+#result {
+    max-width: 960px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 26, 48);
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    #field1, #field2 {
+        font-size: 20px;
+        width:fit-content;
+    }
+    #lable1, #lable2 {
+        font-size: 25px;
+    }
+    #button1 {
+        font-size: 20px;
+    }
+    #result {
+        font-size: 30px;
+    }
+}
